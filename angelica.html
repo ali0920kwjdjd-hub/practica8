@@ -1,6 +1,111 @@
+
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Anglica Mecado cruz</title>
+    <style>
+        :root{
+            --accent:#0b63a5;
+            --accent-dark:#084f81;
+            --bg1:#f8f9ff;
+            --bg2:#eaf2ff;
+            --card-bg: rgba(255,255,255,0.95);
+            --text:#102a43;
+        }
+
+        html, body {
+            height:100%;
+            margin:0;
+            padding:0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg,var(--bg1),var(--bg2));
+            color:var(--text);
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+        }
+
+        body{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:36px;
+            box-sizing:border-box;
+        }
+
+        /* container visual (no HTML changes required) */
+        .visual-wrap{
+            width:100%;
+            max-width:820px;
+            background:var(--card-bg);
+            border-radius:14px;
+            box-shadow: 0 10px 30px rgba(16,42,67,0.08);
+            padding:28px 32px;
+            text-align:center;
+        }
+
+        /* style existing tags */
+        h1{
+            margin:0 0 6px;
+            font-size:2rem;
+            color:var(--accent);
+            letter-spacing:0.3px;
+        }
+
+        h2{
+            margin:0 0 18px;
+            font-size:1.05rem;
+            color:#334e68;
+            font-weight:600;
+        }
+
+        img{
+            max-width:360px;
+            width:75%;
+            height:auto;
+            border-radius:10px;
+            display:block;
+            margin:18px auto 8px;
+            box-shadow:0 12px 30px rgba(16,42,67,0.12);
+            transition: transform .28s ease, box-shadow .28s ease;
+        }
+
+        img:hover{
+            transform:translateY(-6px) scale(1.02);
+            box-shadow:0 18px 44px rgba(16,42,67,0.18);
+        }
+
+        a{
+            display:inline-block;
+            margin-top:14px;
+            text-decoration:none;
+            background:var(--accent);
+            color:#fff;
+            padding:10px 18px;
+            border-radius:10px;
+            font-weight:600;
+            box-shadow:0 8px 20px rgba(11,99,165,0.18);
+            transition:transform .15s ease, background .15s ease;
+        }
+
+        a:hover{
+            background:var(--accent-dark);
+            transform:translateY(-3px);
+        }
+
+        br{line-height:1.2;}
+
+        @media (max-width:520px){
+            body{padding:18px}
+            h1{font-size:1.4rem}
+            img{width:90%}
+            .visual-wrap{padding:18px}
+        }
+    </style>
+</head>
 <body>
+<div class="visual-wrap">
+
 <h1>Anglica Mecado cruz
 </h1>
 
@@ -14,12 +119,10 @@
 
 
 
+
+
 <a href="practica8.html">INICIO</a>
 
-
-
-
-
-
+</div>
 </body>
 </html>

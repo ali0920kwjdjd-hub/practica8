@@ -1,30 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>INICIO</title>
+    <style>
+        :root{
+            --accent:#0b63a5;
+            --accent-dark:#084f81;
+            --bg1:#f8f9ff;
+            --bg2:#eaf2ff;
+            --card-bg: rgba(255,255,255,0.95);
+            --text:#102a43;
+        }
+
+        html, body {
+            height:100%;
+            margin:0;
+            padding:0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg,var(--bg1),var(--bg2));
+            color:var(--text);
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+        }
+
+        body{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:36px;
+            box-sizing:border-box;
+        }
+
+        /* central card look without changing HTML structure */
+        .page-card{
+            width:100%;
+            max-width:860px;
+            background:var(--card-bg);
+            border-radius:14px;
+            box-shadow: 0 12px 36px rgba(16,42,67,0.08);
+            padding:32px;
+            text-align:center;
+        }
+
+        h1{
+            margin:0 0 14px;
+            font-size:2rem;
+            color:var(--accent);
+            letter-spacing:0.4px;
+        }
+
+        a{
+            display:inline-block;
+            margin:8px 10px;
+            text-decoration:none;
+            background:var(--accent);
+            color:#fff;
+            padding:10px 16px;
+            border-radius:10px;
+            font-weight:700;
+            box-shadow:0 8px 20px rgba(11,99,165,0.14);
+            transition: transform .15s ease, background .15s ease;
+        }
+
+        a:hover{
+            background:var(--accent-dark);
+            transform:translateY(-3px);
+        }
+
+        /* make multiple links look like a nav row on small screens */
+        @media (max-width:520px){
+            body{padding:18px}
+            h1{font-size:1.4rem}
+            a{display:block; margin:10px auto; width:85%}
+            .page-card{padding:18px}
+        }
+    </style>
+</head>
 <body>
+    <div class="page-card">
+        <H1>INICIO</H1>
+        <a href="angelica.html">Angelica</a>
+        <a href="wendy.html">Wendy</a>
+        <a href="santiago.html">Santiago</a>
+    </div>
+</body>
+</html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>INICIO</title>
+    <style>
+        :root{
+            --accent:#0b63a5;
+            --accent-dark:#084f81;
+            --bg1:#f8f9ff;
+            --bg2:#eaf2ff;
+            --card-bg: rgba(255,255,255,0.95);
+            --text:#102a43;
+        }
 
-<H1>INICIO</H1>
-<a href="angelica.html">Angelica</a>
-<a href="wendy.html">Wendy</a>
-<a href="santiago.html">Santiago</a>
+        html, body {
+            height:100%;
+            margin:0;
+            padding:0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg,var(--bg1),var(--bg2));
+            color:var(--text);
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+        }
 
+        body{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:36px;
+            box-sizing:border-box;
+        }
 
+        /* central card look without changing HTML structure */
+        .page-card{
+            width:100%;
+            max-width:860px;
+            background:var(--card-bg);
+            border-radius:14px;
+            box-shadow: 0 12px 36px rgba(16,42,67,0.08);
+            padding:32px;
+            text-align:center;
+        }
 
+        h1{
+            margin:0 0 14px;
+            font-size:2rem;
+            color:var(--accent);
+            letter-spacing:0.4px;
+        }
 
+        a{
+            display:inline-block;
+            margin:8px 10px;
+            text-decoration:none;
+            background:var(--accent);
+            color:#fff;
+            padding:10px 16px;
+            border-radius:10px;
+            font-weight:700;
+            box-shadow:0 8px 20px rgba(11,99,165,0.14);
+            transition: transform .15s ease, background .15s ease;
+        }
 
+        a:hover{
+            background:var(--accent-dark);
+            transform:translateY(-3px);
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+        /* make multiple links look like a nav row on small screens */
+        @media (max-width:520px){
+            body{padding:18px}
+            h1{font-size:1.4rem}
+            a{display:block; margin:10px auto; width:85%}
+            .page-card{padding:18px}
+        }
+    </style>
+</head>
+<body>
+    <div class="page-card">
+        <H1>INICIO</H1>
+        <a href="angelica.html">Angelica</a>
+        <a href="wendy.html">Wendy</a>
+        <a href="santiago.html">Santiago</a>
+    </div>
 </body>
 </html>
